@@ -1,0 +1,36 @@
+/* The awesome-typescript-loader Babel cache folder */
+.awcache
+
+/* Node */
+node
+node_modules
+coverage
+
+/* Maven */
+target
+
+/* IntelliJ IDEA */
+.idea/
+.vscode/
+*.iml
+
+/* Eclipse */
+.project
+.settings
+.classpath
+.factorypath
+
+/* Spring */
+.springBeans
+
+/* Log files */
+*.log
+
+/* Tests directories */
+/*/src/test/resources/output
+/*/src/test/resources/latest
+
+/* Mac OS X */
+.DS_Store
+
+
