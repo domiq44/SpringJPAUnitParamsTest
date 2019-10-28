@@ -1,10 +1,10 @@
 package com.javasampleapproach.jpaunittest;
 
-import org.springframework.context.annotation.Configuration;
-import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
+import org.springframework.boot.SpringBootConfiguration;
+import org.springframework.boot.autoconfigure.AutoConfigurationPackage;
 
-@Configuration
-@EnableJpaAuditing
+@SpringBootConfiguration
+@AutoConfigurationPackage
 public class TestPersistenceConfig {
 
 }
